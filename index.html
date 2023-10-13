@@ -4,19 +4,84 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Benjamin Kopecky</title>
+    <!-- <link rel = "stylesheet" href="styles.css"> -->
+    <!-- ^^^css later in website v2^^^ -->
+    <!-- Favicon code below\/\/\/ -->
+    <link rel="icon" type="image/x-icon" href="placeHolder.jpg">
 </head>
 <!-- Write a HTML code that creates a webpage containing your name occupation,
      a link to your social media profile or any relevent link, and a link to your university -->
 <body>
-    <h1>Benjamin Kopecky</h1>
+
+    <!-- The nav bar, eventually with CSS I will make functional buttons that look much better. Includes all but the image related link requirements -->
+
+    <nav>
+        <!-- The UWGB website will open its own tab, the scouting link will not -->
+        <div style="display: inline;">
+            <a href="https://www.uwgb.edu/" target="_blank">University Page</a>
+        </div>
+        <div style="display: inline;">
+            <a href="https://baylakesbsa.org/">Local Scout Page</a>
+        </div>
+    </nav>
+
+    <!-- the section tag below is more of the main body of code for the site -->
+
     <section>
-        <img src="placeHolder.jpg" alt="temp text" width="100px" height="100px " style="padding: 20px; padding-left: 50px;">
+        <!-- Introduction, will center this once we get into more CSS; NOTE: Padding does weird things to the border radius attribute (Use margin) -->
+
+        <h1>Benjamin Kopecky</h1>
+        <!-- Image and link below -->
+       <a href="Mugshot.jpg"><img src="Mugshot.jpg" alt="temp text" width="150px" height="150px " style="margin-left: 5%; border-radius: 50%;"></a>
+   
+
+        <!-- Basic get to know me at a glance information list-->
 
         <ul>
             <li>Current Occupation: Full Time Student</li>
-            <li><a href="https://www.uwgb.edu/">School: University of Wisconsin Green Bay</a></li>
-            <li>Contact Information: <a href="mainto:kopecky.j.benjamin@gmail.com">Email</a></li>
+            <li>School: University of Wisconsin Green Bay</li>
+            <li>Contact Information: <a href="mailto:kopecky.j.benjamin@gmail.com">Email</a></li>
+            <li>Eagle Scout of Hilbert Boy Scout Troop 79</li>
         </ul>
+
+        <!-- List showing off my code skills on a website I made, also uses special character and emoji -->
+
+        <h3 style="padding-bottom: 0; margin-bottom: 0;">Language I have learned</h6>
+        <h6 style="margin-top: 0; padding-top: 0;">&ast;Semester or greater</h6>
+        <ol>
+            <li>Python &#128013;</li>
+            <li>Java</li>
+            <li>HTML,JavaScript,CSS</li>
+            
+        </ol>
+
+        <!-- Table to demonstrate I know how to make a table -->
+
+        <table>
+            <tr>
+                <td>COL 1</td>
+                <td>COL 2</td>
+            </tr>
+            <tr>
+                <td>I dont really care for this part</td>
+                <td>Filler text</td>
+            </tr>
+
+        </table>
+
+        <!-- Second Table ment to demonstrate borders, also not my best work -->
+
+        <table style="border-style: solid; border-width: 5px; border-color: purple;">
+            <tr >
+                <td style="border-style: solid; border-width: 2px; border-color: green;">COL 1</td>
+                <td style="border-style: solid; border-width: 2px; border-color: red;">COL 2</td>
+            </tr>
+            <tr>
+                <td style="border-style: solid; border-width: 2px; border-color: blue;">Ooo now it has borders</td>
+                <td style="border-style: solid; border-width: 2px; border-color: yellow;">Filler text</td>
+            </tr>
+
+        </table>
     </section>
     
     
